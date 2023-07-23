@@ -1,3 +1,4 @@
+import './TodoItem.css';
 export const TodoItem = () => (
     <li>
         <span>V</span>

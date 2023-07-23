@@ -1,0 +1,15 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    margin: 2rem;
+}
+li span:nth-child(1) {
+    color: red;
+}
+li span:nth-child(3) {
+    color: gray;
+    margin-top: -4.5rem;
+}
