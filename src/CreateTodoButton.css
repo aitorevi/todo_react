@@ -1,0 +1,24 @@
+button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 50%;
+    color: #282c34;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 64px;
+    width: 64px;
+    box-shadow: 0 5px 25px rgba(97, 218, 250, 0.5);
+    transform: rotate(0);
+    transition: ease-in-out 0.9s;
+}
+
+button:hover {
+    transform: rotate(180deg);
+    transition: ease-in-out 0.9s;
+    background-color: #282c34;
+    color: #61dafb;
+}
